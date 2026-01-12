@@ -23,7 +23,7 @@ def create_access_token(data: dict):
 
 @app.post("/login")
 async def login(form_data: OAuth2PasswordRequestForm = Depends()):
-    
+    # Here you would check a database for the user
     access_token = create_access_token(data={"sub": form_data.username})
     return {"access_token": access_token, "token_type": "bearer"}
 
