@@ -29,3 +29,22 @@ To test the 1-minute expiry:
 2. Use the token to access `/secure-data`.
 3. Wait 61 seconds and try again. The API will return a `401 Unauthorized` status.
 4. And last add screenshot and past it for git hub
+
+## Conclusion
+
+This project provides a secure and scalable JWT authentication system using FastAPI.
+It follows best practices for token handling and environment security.
+
+## Output Verification
+
+Open Swagger UI
+
+Login to get token
+
+Copy token
+
+Test protected endpoint
+
+Verify 401 Unauthorized without token
+
+Verify 200 OK with token
