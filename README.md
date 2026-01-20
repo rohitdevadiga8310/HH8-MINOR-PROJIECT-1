@@ -48,4 +48,6 @@ Verify 401 Unauthorized without token
 
 Verify 200 OK with tokenhot and past it for git hub
 
+And take screen shot and upload into git hub 
+
 
