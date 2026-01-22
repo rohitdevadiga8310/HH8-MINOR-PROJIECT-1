@@ -32,22 +32,16 @@ To test the 1-minute expiry:
 
 ## Conclusion
 This project provides a secure and scalable JWT authentication system using FastAPI.
-It follows best practices for token handling and environment security.
+
 
 ## Output Verification
-
 Open Swagger UI
-
 Login to get token
-
 Copy token
+Test protected endpoin
 
-Test protected endpoint
 
-Verify 401 Unauthorized without token
 
-Verify 200 OK with tokenhot and past it for git hub
 
-And take screen shot and upload into git hub 
 
 
