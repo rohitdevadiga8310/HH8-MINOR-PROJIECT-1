@@ -1,4 +1,4 @@
-# JWT Secure API with FastAPI
+ JWT Secure API with FastAPI
 
 A high-security REST API built using **Python**, **FastAPI**, and **JSON Web Tokens (JWT)**.
 
@@ -39,6 +39,7 @@ Open Swagger UI
 Login to get token
 Copy token
 Test protected endpoin
+
 
 
 
