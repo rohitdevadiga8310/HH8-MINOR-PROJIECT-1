@@ -1,4 +1,4 @@
-# JWT Secure API with FastAPI
+ JWT Secure API with FastAPI
 
 A high-security REST API built using **Python**, **FastAPI**, and **JSON Web Tokens (JWT)**.
 
@@ -28,22 +28,21 @@ To test the 1-minute expiry:
 1. Generate a token via the `/login` endpoint.
 2. Use the token to access `/secure-data`.
 3. Wait 61 seconds and try again. The API will return a `401 Unauthorized` status.
-4. And last add screens## Conclusion
+4. And last add screens
 
+## Conclusion
 This project provides a secure and scalable JWT authentication system using FastAPI.
-It follows best practices for token handling and environment security.
+
 
 ## Output Verification
-
 Open Swagger UI
-
 Login to get token
-
 Copy token
+Test protected endpoin
 
-Test protected endpoint
 
-Verify 401 Unauthorized without token
 
-Verify 200 OK with tokenhot and past it for git hub
+
+
+
 
