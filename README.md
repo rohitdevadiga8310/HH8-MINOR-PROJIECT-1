@@ -3,9 +3,13 @@
 A high-security REST API built using **Python**, **FastAPI**, and **JSON Web Tokens (JWT)**.
 
 Security Features
-- **Short-Lived Access Tokens:** Tokens expire after **1 minute**. This significantly limits the time attackers have to use an intercepted token.
-- **HS256 Encryption:** This is a secure signing algorithm that maintains data integrity.
-- **Middleware Protection:** The system automatically verifies tokens on all sensitive endpoints.
+**Short-Lived Access Tokens:**
+  - Tokens expire after **1 minute**.
+  -  This significantly limits the time attackers have to use an intercepted token.
+**HS256 Encryption:**
+  -  This is a secure signing algorithm that maintains data integrity.
+**Middleware Protection:**
+  - The system automatically verifies tokens on all sensitive endpoints.
 
 Tools Used
 - **Language:** Python 3.x
@@ -39,6 +43,7 @@ Open Swagger UI
 Login to get token
 Copy token
 Test protected endpoin
+
 
 
 
